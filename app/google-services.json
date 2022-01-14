@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131513714121",
+    "firebase_url": "https://moon-edu-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "moon-edu",
+    "storage_bucket": "moon-edu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131513714121:android:41cac63e89e2af4b821418",
+        "android_client_info": {
+          "package_name": "com.moon.moonedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131513714121-ga2dqstqeaf3v0gl1phgomm63ng0028m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moon.moonedu",
+            "certificate_hash": "64ce8683cbf0e4aa38f9b3b6d4acf77e206eb9f9"
+          }
+        },
+        {
+          "client_id": "131513714121-4q5c11hp5pn9ljl8sgejdltt8q85a1jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs-FVFlod-LS4QXeyKdFVgim07OEPoFeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131513714121-4q5c11hp5pn9ljl8sgejdltt8q85a1jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

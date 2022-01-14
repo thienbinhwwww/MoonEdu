@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MoonEdu" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:navigationBarColor">@color/color_main</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.MoonEdu.SplashActivity">
+        <item name="android:navigationBarColor">@color/color_main</item>
+        <item name="android:statusBarColor">@color/color_main2</item>
+    </style>
+    <style name="Theme.MoonEdu.MainActivity">
+        <item name="android:statusBarColor">@color/bk_trang</item>
+        <item name="colorAccent">@color/color_main2</item>
+    </style>
+    <style name="Theme.MoonEdu.EditProfileActivity">
+        <item name="android:statusBarColor">@color/bk_trang</item>
+        <item name="colorAccent">@color/color_main2</item>
+    </style>
+</resources>
