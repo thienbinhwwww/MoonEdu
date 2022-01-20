@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.moon.moonedu.Fragment.SubFragment.IntroduceSubFragment;
 import com.moon.moonedu.R;
 import com.moon.moonedu.Support.CheckText;
 
@@ -42,7 +43,8 @@ public class LogInActivity extends AppCompatActivity {
     // Lắng nghe sự kiện
     private void initListener() {
         mBtnLogin.setOnClickListener(v -> {
-
+            Intent intent = new Intent(this, IntroduceSubFragment.class);
+            startActivity(intent);
         });
 
         mTvFPassword.setOnClickListener(v -> {
