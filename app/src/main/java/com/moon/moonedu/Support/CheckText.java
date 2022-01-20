@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CheckText {
-    public static void checkEmpty(TextInputEditText edt, TextInputLayout edtl, String st){
+    public static void checkEmpty(TextInputEditText edt, TextInputLayout edtl, String st) {
         edt.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -25,17 +25,17 @@ public class CheckText {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if(edt.getText().toString().isEmpty()){
-                    edtl.setError("Không để trống "+st);
+                if (edt.getText().toString().isEmpty()) {
+                    edtl.setError("Không để trống " + st);
 
-                }else {
+                } else {
                     edtl.setError(null);
                 }
             }
         });
     }
 
-    public static void checkSpecialCharacters(TextInputEditText edt, TextInputLayout edtl,String st){
+    public static void checkSpecialCharacters(TextInputEditText edt, TextInputLayout edtl, String st) {
         edt.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -52,40 +52,40 @@ public class CheckText {
                 Pattern p = Pattern.compile("[^a-z0-9]", Pattern.CASE_INSENSITIVE);
                 Matcher m = p.matcher(edt.getText().toString());
                 boolean b = m.find();
-                if(b){
-                    edtl.setError(st+" không chứa ký tự đặc biệt");
-                }else {
+                if (b) {
+                    edtl.setError(st + " không chứa ký tự đặc biệt");
+                } else {
                     edtl.setError(null);
                 }
             }
         });
     }
 
-    public static boolean clickCheck(TextInputEditText edt, TextInputLayout edtl,String st){
-        if(edt.getText().toString().isEmpty()){
+    public static boolean clickCheck(TextInputEditText edt, TextInputLayout edtl, String st) {
+        if (edt.getText().toString().isEmpty()) {
             edtl.setError("Không để trống" + st);
             return false;
-        }else {
+        } else {
             edtl.setError(null);
             return true;
         }
     }
 
-    public static boolean clickCheckSpecialCharacters(TextInputEditText edt, TextInputLayout edtl,String st){
+    public static boolean clickCheckSpecialCharacters(TextInputEditText edt, TextInputLayout edtl, String st) {
         Pattern p = Pattern.compile("[^a-z0-9]", Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(edt.getText().toString());
         boolean b = m.find();
-        if(b){
-            edtl.setError(st+" không chứa ký tự đặc biệt");
+        if (b) {
+            edtl.setError(st + " không chứa ký tự đặc biệt");
             return false;
-        }else {
+        } else {
             edtl.setError(null);
             return true;
         }
     }
 
     private int hideNavigationBar() {
-        return  View.SYSTEM_UI_FLAG_FULLSCREEN
+        return View.SYSTEM_UI_FLAG_FULLSCREEN
                 | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
                 | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN

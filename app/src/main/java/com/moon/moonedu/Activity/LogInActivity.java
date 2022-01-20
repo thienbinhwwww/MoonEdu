@@ -15,6 +15,8 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.moon.moonedu.R;
 import com.moon.moonedu.Support.CheckText;
 
+import java.util.Objects;
+
 public class LogInActivity extends AppCompatActivity {
     private ConstraintLayout mCtLayoutMain;
     private Animation mAnimFade;
@@ -28,7 +30,7 @@ public class LogInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-
+        Objects.requireNonNull(getSupportActionBar()).hide();
         initUi();
         anim();
         start();
