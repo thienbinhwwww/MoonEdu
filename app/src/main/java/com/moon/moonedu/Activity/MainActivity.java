@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
+import android.view.Window;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.moon.moonedu.Adapter.ViewPagerAdapter;
 import com.moon.moonedu.R;
+
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView mBtNavMain;
