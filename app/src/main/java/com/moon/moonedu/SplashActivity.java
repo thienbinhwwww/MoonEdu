@@ -35,7 +35,6 @@ public class SplashActivity extends AppCompatActivity {
                 nextAc();
             }
         }.start();
-
     }
 
     private void nextAc() {
