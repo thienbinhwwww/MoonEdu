@@ -3,6 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/drawable/bg_btn.xml" value="0.2265" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/drawable/bg_gach.xml" value="0.2265" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/drawable/bg_textinput.xml" value="0.2265" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/drawable/ic_baseline_videogame.xml" value="0.2265" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/layout/activity_register.xml" value="0.2115036231884058" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/layout/activity_splash.xml" value="0.2115036231884058" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/layout/fragment_discover.xml" value="0.2115036231884058" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/layout/fragment_universe.xml" value="0.2115036231884058" />
+        <entry key="..\:/HOC/DATN/moon_edu/MoonEdu/app/src/main/res/layout/fragment_user.xml" value="0.152" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activi.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_edit_profile.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_forgot_password.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_introduce.xml" value="0.2" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_introduce_sub_fragment.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_log_in.xml" value="0.13020833333333334" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_register.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_all.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_discover.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_home.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_introduce_sub.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_universe.xml" value="0.19519927536231885" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/layout/fragment_user.xml" value="0.264" />
+        <entry key="..\:/LEAR/duan/moon_edu/MoonEdu/app/src/main/res/menu/menu_bottom_nav_mainac.xml" value="0.25416666666666665" />
         <entry key="..\:/Study/DaMau/MoonEdu/app/src/main/res/drawable/corner_background.xml" value="0.24177631578947367" />
         <entry key="..\:/Study/DaMau/MoonEdu/app/src/main/res/drawable/corner_background_2.xml" value="0.22302631578947368" />
         <entry key="..\:/Study/DaMau/MoonEdu/app/src/main/res/layout/activity_edit_profile.xml" value="0.16348684210526315" />
