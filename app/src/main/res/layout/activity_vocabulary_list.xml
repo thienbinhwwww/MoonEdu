@@ -7,26 +7,13 @@
     tools:context=".Activity.VocabularyActivity">
 
 
-    <LinearLayout
-        android:id="@+id/search"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="#4A638C"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:layout_width="34dp"
-            android:layout_height="34dp"
-            android:layout_marginRight="16dp"
-            android:src="@drawable/magnifier" />
-
-        <EditText
-            android:layout_width="325dp"
-            android:layout_height="34dp"
-            android:background="@drawable/bg_textinput" />
-    </LinearLayout>
+   <androidx.appcompat.widget.SearchView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/search"
+       android:background="#4A638C"
+       tools:ignore="MissingConstraints">
+   </androidx.appcompat.widget.SearchView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
