@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
+    android:layout_height="100dp"
     android:layout_marginLeft="20dp"
     android:layout_marginTop="25dp"
     android:layout_marginRight="20dp"
@@ -14,61 +14,50 @@
         android:id="@+id/tv_chu_de"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:text="Chủ đề một"
         android:textColor="@color/black"
-        android:text="TextView"
         android:textSize="20dp"
-        android:textFontWeight="400"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_date"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tv_date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="14dp"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/tv_diem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="16dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_game"
-        app:layout_constraintStart_toStartOf="@+id/tv_date"
-        app:layout_constraintTop_toTopOf="@+id/tv_game"
+        app:srcCompat="@drawable/saohonhtim1"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tv_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="34dp"
+        android:text="Bài học dùng khi gặp người mới"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:text="TextView"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/tv_chu_de"
+        app:layout_constraintEnd_toStartOf="@+id/img_play"
+        app:layout_constraintStart_toEndOf="@+id/tv_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chu_de"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/img_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_playx"
+        app:srcCompat="@drawable/polygon3"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

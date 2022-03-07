@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.PersonalVocabularyList">
+    tools:context=".Activity.PersonalStudyTopics">
     <LinearLayout
         android:id="@+id/search"
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
     </LinearLayout>
 
     <ListView
+        android:background="@drawable/bk_ga"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/menu"
@@ -78,7 +79,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Thêm từ vựng mới"
+                android:text="Thêm chủ đề mới"
                 android:textColor="#ffffff"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -87,5 +88,4 @@
 
 
     </com.google.android.flexbox.FlexboxLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
