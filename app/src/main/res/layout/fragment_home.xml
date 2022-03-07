@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginBottom="12dp"
-        android:layout_weight="37"
+        android:layout_weight="40"
         android:background="@drawable/corner_background_1"
         android:orientation="vertical"
         android:weightSum="100">
@@ -47,7 +47,7 @@
                 android:layout_marginBottom="8dp"
                 android:gravity="center"
                 android:text="Những bài học giành cho bạn"
-                android:textColor="@color/bk_trang"
+                android:textColor="@color/text_white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -102,7 +102,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="12dp"
-        android:layout_weight="26"
+        android:layout_weight="20"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -111,7 +111,29 @@
             android:layout_marginRight="12dp"
             android:layout_weight="5"
             android:background="@drawable/corner_background_1"
-            android:orientation="vertical"></LinearLayout>
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Học tự do"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/fhome_1" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -119,8 +141,28 @@
             android:layout_marginLeft="12dp"
             android:layout_weight="5"
             android:background="@drawable/corner_background_1"
+            android:gravity="center"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Học theo chủ đề"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/fhome_2" />
         </LinearLayout>
     </LinearLayout>
 
@@ -128,7 +170,26 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="12dp"
-        android:layout_weight="37"
+        android:layout_weight="40"
         android:background="@drawable/corner_background_1"
-        android:orientation="vertical"></LinearLayout>
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Học theo chủ đề của bạn"
+            android:textColor="@color/text_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fhome_3" />
+    </LinearLayout>
 </LinearLayout>
